@@ -1,0 +1,14 @@
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #fffcf8;
+}
+
+a.active {
+  color: #ff8d3f;
+}

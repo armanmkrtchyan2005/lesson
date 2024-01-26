@@ -1,0 +1,419 @@
+.headerDoing {
+  position: relative;
+  width: 100%;
+  height: 415px;
+}
+
+.headerDoing img {
+  width: 100%;
+}
+
+.headerDoing p {
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 280px;
+  width: 1088px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96px;
+}
+
+.whatWe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 380px;
+  gap: 30px;
+}
+
+.frontBack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  transition: transform 0.6s linear;
+}
+
+.backBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(180deg);
+  transition: transform 0.6s linear;
+}
+
+.frontBack:hover > .backBox {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.backBox p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+.backBox span {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.openBtn {
+  margin-top: 20px;
+  padding: 16px 50px;
+  border-radius: 50px;
+  background: #ff8d3f;
+  stroke-width: 10px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  filter: drop-shadow(0 0 7px rgba(255, 141, 63, 1));
+  background: #ffa161;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .box1 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.box1 img {
+  width: 60%;
+}
+
+.box1 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .box2 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.box2 img {
+  width: 60%;
+}
+
+.box2 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .box3 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.box3 img {
+  width: 55%;
+}
+
+.box3 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.secBox1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .secBox1 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.secBox1 img {
+  width: 75%;
+}
+
+.secBox1 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.secBox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .secBox2 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.secBox2 img {
+  width: 75%;
+}
+
+.secBox2 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.secBox3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .secBox3 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.secBox3 img {
+  width: 85%;
+}
+
+.secBox3 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.endBox1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .endBox1 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.endBox1 img {
+  width: 65%;
+}
+
+.endBox1 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.endBox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .endBox2 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.endBox2 img {
+  width: 70%;
+}
+
+.endBox2 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.endBox3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 4px 9px 2px rgba(0, 0, 0, 0.12);
+  transform: perspective(600px) rotateY(0deg);
+  transition: transform 0.6s linear;
+  cursor: pointer;
+}
+
+.frontBack:hover > .endBox3 {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.endBox3 img {
+  width: 70%;
+}
+
+.endBox3 p {
+  color: #ffc158;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+}
