@@ -10,23 +10,23 @@ const Root = () => {
   return (
     <div className={styles.Root}>
       <div className={styles.header}>
-        <img src={headerimg} alt="image" className={styles.headerimg} />
+        <img src={headerimg} alt="" className={styles.headerimg} />
         <div className={styles.nav}>
           <img src={logo} alt="logo" />
           <div className={styles.bars}>
-            <NavLink className={styles.link} to={"/home"}>
+            <NavLink className={styles.link} to={"/"}>
               ГЛАВНАЯ
             </NavLink>
             <NavLink to={"/who"} className={styles.link}>
               КТО МЫ
             </NavLink>
-            <NavLink to={"/chto"} className={styles.link}>
+            <NavLink to={"/doing"} className={styles.link}>
               Что мы делаем
             </NavLink>
-            <NavLink to={"/proect"} className={styles.link}>
+            <NavLink to={"/projects"} className={styles.link}>
               Проекты
             </NavLink>
-            <NavLink to={"/"} className={styles.link}>
+            <NavLink to={"/contacts"} className={styles.link}>
               Контакты
             </NavLink>
             <p to={"/"} className={styles.link}>
@@ -38,7 +38,7 @@ const Root = () => {
       </div>
       <Outlet />
       <div className={styles.footer}>
-        <img src={footerimg} alt="image" />
+        <img src={footerimg} alt="" />
         <div className={styles.footerbars}>
           <NavLink className={styles.footerlink} to={"/faq"}>
             FAQ
