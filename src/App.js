@@ -5,14 +5,12 @@ import Who from "./components2/who/Who";
 import Nav from "./components/home/nav/Nav";
 import Doing from "./components3/doing/Doing";
 import Projects from "./components4/Projects";
-// import Nav1 from "./components2/nav1/Nav1";
 
 function App() {
   return (
     <>
       <div>
         <Nav />
-        {/* <Nav1 /> */}
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
